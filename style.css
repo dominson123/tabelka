@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+td {
+    height: 100px;
+}
+
+.left-top {
+    text-align: left;
+    vertical-align: top;
+}
+
+.center-middle {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.right-bottom {
+    text-align: right;
+    vertical-align: bottom;
+}
